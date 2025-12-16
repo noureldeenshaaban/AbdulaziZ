@@ -11,7 +11,8 @@ package parkingsystem;
 public class EntryOperator extends javax.swing.JFrame {
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(EntryOperator.class.getName());
-
+     
+    ParkingData data = ParkingData.getdata();
     /**
      * Creates new form EntryOperator
      */

@@ -8,7 +8,9 @@ package parkingsystem;
  *
  * @author youse
  */
-public class ExitOperator extends javax.swing.JFrame {
+public class ExitOperator extends javax.swing.JFrame { 
+    
+    ParkingData data = ParkingData.getdata();
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(ExitOperator.class.getName());
 

@@ -11,7 +11,7 @@ package parkingsystem;
 public class MainMenu extends javax.swing.JFrame {
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(MainMenu.class.getName());
-
+    ParkingData data = ParkingData.getdata();
     /**
      * Creates new form MainMenu
      */
